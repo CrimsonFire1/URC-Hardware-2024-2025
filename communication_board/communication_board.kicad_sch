@@ -1195,6 +1195,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 74.93) (xy 69.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eeba845-b749-402b-a13b-030b62115a75")
+	)
+	(wire
+		(pts
 			(xy 149.86 111.76) (xy 149.86 115.57)
 		)
 		(stroke
@@ -1215,6 +1225,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 93.98) (xy 73.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574446af-ee90-4f78-b7a6-2b3ba924f91b")
+	)
+	(wire
+		(pts
 			(xy 170.18 105.41) (xy 179.07 105.41)
 		)
 		(stroke
@@ -1222,6 +1242,16 @@
 			(type default)
 		)
 		(uuid "5b56923c-59d0-457e-add0-18b5bac94b11")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65455c63-84b5-49e1-81ae-754156a4d171")
 	)
 	(wire
 		(pts
@@ -1245,6 +1275,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 72.39) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf8baaa-a78d-4222-b960-d75aeea519fc")
+	)
+	(wire
+		(pts
 			(xy 148.59 57.15) (xy 148.59 62.23)
 		)
 		(stroke
@@ -1252,6 +1292,46 @@
 			(type default)
 		)
 		(uuid "c1ef1d93-076b-46ea-88f7-2a8d73c8b701")
+	)
+	(wire
+		(pts
+			(xy 50.8 72.39) (xy 58.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79603d9-f98d-4681-9b05-0412eb301fde")
+	)
+	(wire
+		(pts
+			(xy 69.85 96.52) (xy 69.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f41d2d-f042-4d37-94f1-57675d6bedfa")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaef196a-46b8-40fd-8828-5fb4d10302b8")
+	)
+	(wire
+		(pts
+			(xy 50.8 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4dfdab-1507-49a6-940c-2b8914a0a801")
 	)
 	(label "RED"
 		(at 179.07 105.41 0)
@@ -1263,6 +1343,17 @@
 			(justify left bottom)
 		)
 		(uuid "03991378-3a35-4520-a1d8-752b55580042")
+	)
+	(label "GREEN"
+		(at 50.8 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d87928e-facd-487b-a1be-6d8266c6a6dc")
 	)
 	(label "YELLOW"
 		(at 179.07 102.87 0)
@@ -1286,6 +1377,17 @@
 		)
 		(uuid "6f08601b-2e88-47ce-8d65-f4b8c981b58f")
 	)
+	(label "YELLOW"
+		(at 50.8 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a99af9a-b257-48b1-a557-71a47ccb9456")
+	)
 	(label "GREEN"
 		(at 179.07 97.79 0)
 		(fields_autoplaced yes)
@@ -1296,6 +1398,142 @@
 			(justify left bottom)
 		)
 		(uuid "a83098a3-f243-4d70-a269-ff2398c13644")
+	)
+	(symbol
+		(lib_id "URC:R")
+		(at 62.23 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09141a0c-77da-4d44-9334-38087f65038f")
+		(property "Reference" "R2"
+			(at 62.23 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 62.23 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.484 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b82b427-7938-4839-b489-c5253636d5a9")
+		)
+		(pin "1"
+			(uuid "f726a02d-f4c2-498d-8d8c-32cc27c6b8f8")
+		)
+		(instances
+			(project "communication_board"
+				(path "/cada3784-82b6-4f8a-a037-94ef00800359"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "URC:R")
+		(at 62.23 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7da686-8fd6-4274-bb8e-384fe410f177")
+		(property "Reference" "R3"
+			(at 62.23 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 62.23 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.484 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c235fc04-9cc4-4844-806d-a022839acb0f")
+		)
+		(pin "1"
+			(uuid "a98bae6d-6a62-47ac-9d14-ebb94dd746b5")
+		)
+		(instances
+			(project "communication_board"
+				(path "/cada3784-82b6-4f8a-a037-94ef00800359"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "URC:GND")
@@ -1512,6 +1750,208 @@
 		)
 	)
 	(symbol
+		(lib_id "URC:GND")
+		(at 69.85 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52971416-66dd-42c1-8116-d1862060ab2f")
+		(property "Reference" "#PWR05"
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be06e6b6-9b2f-4e43-b741-5744cdb80eb1")
+		)
+		(instances
+			(project "communication_board"
+				(path "/cada3784-82b6-4f8a-a037-94ef00800359"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "URC:2_Pin_Connector")
+		(at 78.74 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56731ea8-cebb-4db9-b3e1-7d42439a9d9d")
+		(property "Reference" "J2"
+			(at 80.01 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2_Pin_Connector"
+			(at 80.01 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2da98bfa-84fa-4bef-9d08-ab7f8e1537b2")
+		)
+		(pin "1"
+			(uuid "a959990c-605d-4f7c-986e-d5e2d99770e1")
+		)
+		(instances
+			(project "communication_board"
+				(path "/cada3784-82b6-4f8a-a037-94ef00800359"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "URC:GND")
+		(at 69.85 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "867ec445-c109-4a3b-a84a-4e57d6c91b4d")
+		(property "Reference" "#PWR04"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "787c2417-60ca-4710-8206-15fbffd28d89")
+		)
+		(instances
+			(project "communication_board"
+				(path "/cada3784-82b6-4f8a-a037-94ef00800359"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "URC:R")
 		(at 60.96 114.3 90)
 		(unit 1)
@@ -1644,6 +2084,76 @@
 			(project ""
 				(path "/cada3784-82b6-4f8a-a037-94ef00800359"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "URC:2_Pin_Connector")
+		(at 78.74 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a238b6ca-7e72-4a23-abb9-6365cbb73155")
+		(property "Reference" "J3"
+			(at 80.01 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2_Pin_Connector"
+			(at 80.01 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2bfd212-a268-4833-8729-81f8abb72830")
+		)
+		(pin "1"
+			(uuid "42e557d6-5da4-4640-84ec-896d2d3d9a48")
+		)
+		(instances
+			(project "communication_board"
+				(path "/cada3784-82b6-4f8a-a037-94ef00800359"
+					(reference "J3")
 					(unit 1)
 				)
 			)
